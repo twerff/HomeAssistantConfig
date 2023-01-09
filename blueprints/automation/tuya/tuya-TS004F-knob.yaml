@@ -26,8 +26,8 @@ blueprint:
             - queued
             - parallel
     max:
-      name: Automation Max Queue
-      description: The maximum number of runs that can be executing and/or queued up at a time.
+      name: Automazione Max Esecuzioni
+      description: Il numero massimo di esecuzioni che possono essere eseguite e messe in coda alla volta.
       default: 10
       selector:
         number:
